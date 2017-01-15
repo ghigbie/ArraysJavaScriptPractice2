@@ -40,3 +40,13 @@ isUniform(chars1);
 console.log("//////////");
 isUniform(chars2);
 console.log("//////////");
+
+
+var numbers3 = [1,2,3];
+var numbers4 = [10,3,10,4];
+var numbers5 = [-5, 100];
+
+function sumArray(array){
+	for(var i = 0)
+}
+
