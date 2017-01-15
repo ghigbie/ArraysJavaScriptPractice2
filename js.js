@@ -23,13 +23,14 @@ function isUniform(array){
 	for(var a = 0; a < array.length-1; a++){
 		if(array[a] !== array[a+1]){
 			console.log("false");
+			console.log("//////////");
 			return false;
 		}else{
 			console.log("true");
+			console.log("//////////");
 			return true;
 		}
 	}
-	console.log("//////////");
 }
 
 isUniform(numbers1);
@@ -44,10 +45,11 @@ var numbers5 = [-5, 100];
 
 function sumArray(array){
 	var sum;
-	for(var i = 0; i < arrays.length; a++){
-		sum+=arrays[i];
+	for(var i = 0; i < array.length; i++){
+		sum+=array[i];
 	}
-	console.log("/////////////")
+	console.log(sum);
+	console.log("/////////////");
 }
 
 sumArray(numbers3);
