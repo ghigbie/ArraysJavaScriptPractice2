@@ -72,3 +72,7 @@ function max(array){
 	console.log("//////////");
 }
 
+max(numbers6);
+max(numbers7);
+max(numbers8);
+
