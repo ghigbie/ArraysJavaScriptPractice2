@@ -13,3 +13,15 @@ printReverse(numbers);
 console.log("///////////////")
 printReverse(chars);
 
+
+
+var numbers1 = [1,1,1,1,1,1];
+var numbers2 = [2,1,1,1,1,1];
+var chars1 = ["a", "b", "c", "d"];
+var chars2 = ["a", "a", "a", "a"];
+
+function isUniform(array){
+	for(var a = 0; a < array.length); a++){
+	
+	}
+}
