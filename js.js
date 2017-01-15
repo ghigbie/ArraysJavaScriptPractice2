@@ -7,12 +7,11 @@ function printReverse(array){
 	for(var a = array.length-1; a > -1; a--){
 		console.log(array[a]);
 	}
+	console.log("//////////");
 }
 
 printReverse(numbers);
-console.log("///////////////")
 printReverse(chars);
-console.log("//////////");
 
 
 var numbers1 = [1,1,1,1,1,1];
