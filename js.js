@@ -47,6 +47,8 @@ var numbers4 = [10,3,10,4];
 var numbers5 = [-5, 100];
 
 function sumArray(array){
-	for(var i = 0)
+	for(var i = 0; i < arrays.length; a++){
+		
+	}
 }
 
