@@ -50,3 +50,7 @@ function sumArray(array){
 	console.log("/////////////")
 }
 
+sumArray(numbers3);
+sumArray(numbers4);
+sumArray(numbers5);
+
