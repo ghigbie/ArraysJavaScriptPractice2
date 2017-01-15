@@ -70,6 +70,7 @@ function sumArray(array){
 	}
 	console.log(sum);
 	console.log("/////////////");
+	return sum;
 }
 
 sumArray(numbers3);
@@ -91,6 +92,7 @@ function max(array){
 	}
 	console.log(maxValue);
 	console.log("//////////");
+	return maxValue;
 }
 
 max(numbers6);
