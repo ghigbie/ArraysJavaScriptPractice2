@@ -61,6 +61,14 @@ var numbers7 = [10,3,10,4];
 var numbers8 = [-5,100];
 
 function max(array){
-	
+	var maxValue = array[0];
+	for(var i = 0; i < array.length; i++){
+		if(array[i] > maxValue){
+			maxValue = array[i];
+
+		}
+	}
+	console.log(maxValue);
+	console.log("//////////");
 }
 
