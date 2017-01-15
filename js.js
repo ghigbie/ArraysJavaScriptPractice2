@@ -56,3 +56,11 @@ sumArray(numbers3);
 sumArray(numbers4);
 sumArray(numbers5);
 
+var numbers6 = [1,2,3];
+var numbers7 = [10,3,10,4];
+var numbers8 = [-5,100];
+
+function max(array){
+	
+}
+
