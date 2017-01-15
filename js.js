@@ -12,7 +12,7 @@ function printReverse(array){
 printReverse(numbers);
 console.log("///////////////")
 printReverse(chars);
-
+console.log("//////////");
 
 
 var numbers1 = [1,1,1,1,1,1];
@@ -23,8 +23,10 @@ var chars2 = ["a", "a", "a", "a"];
 function isUniform(array){
 	for(var a = 0; a < array.length-1; a++){
 		if(array[a] !== array[a+1]){
+			console.log("false");
 			return false;
 		}else{
+			console.log("true");
 			return true;
 		}
 	}
