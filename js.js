@@ -21,7 +21,20 @@ var chars1 = ["a", "b", "c", "d"];
 var chars2 = ["a", "a", "a", "a"];
 
 function isUniform(array){
-	for(var a = 0; a < array.length); a++){
-	
+	for(var a = 0; a < array.length-1; a++){
+		if(array[a] !== array[a+1]){
+			return false;
+		}else{
+			return true;
+		}
 	}
 }
+
+isUniform(numbers1);
+console.log("//////////");
+isUniform(numbers2);
+console.log("//////////");
+isUniform(chars1);
+console.log("//////////");
+isUniform(chars2);
+console.log("//////////");
