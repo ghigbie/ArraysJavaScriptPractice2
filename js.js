@@ -13,7 +13,7 @@ function printReverse(array){
 printReverse(numbers);
 printReverse(chars);
 
-
+//isUniform() starts here
 var numbers1 = [1,1,1,1,1,1];
 var numbers2 = [2,1,1,1,1,1];
 var chars1 = ["a", "b", "c", "d"];
@@ -38,7 +38,27 @@ isUniform(numbers2);
 isUniform(chars1);
 isUniform(chars2);
 
+//another version of the isUniform()
+function isUniform2(array){
+	var first = array[0];
+	for(var i = 1; i < array.length; i++){
+		if(array[i] !== first){
+			console.log("false");
+			console.log("//////////");
+			return false;
+		}
+	}
+	console.log("true");
+	console.log("//////////");
+	return true;
+}
 
+isUniform2(numbers1);
+isUniform2(numbers2);
+isUniform2(chars1);
+isUniform2(chars2);
+
+//sumArray() starts here
 var numbers3 = [1,2,3];
 var numbers4 = [10,3,10,4];
 var numbers5 = [-5, 100];
@@ -56,6 +76,7 @@ sumArray(numbers3);
 sumArray(numbers4);
 sumArray(numbers5);
 
+//max() starts here
 var numbers6 = [1,2,3];
 var numbers7 = [10,3,10,4];
 var numbers8 = [-5,100];
