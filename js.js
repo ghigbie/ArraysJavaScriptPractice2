@@ -6,11 +6,12 @@ var chars = ["a", "b", "c", "d", "e", "f"];
 function printReverse(array){
 	var length = array.length;
 
-	for(var a = array.length-1; a < 0; a--){
+	for(var a = array.length-1; a > -1; a--){
 		console.log(array[a]);
+		console.log("/////////////");
 	}
 }
 
-
 printReverse(numbers);
 printReverse(chars);
+
